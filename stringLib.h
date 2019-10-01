@@ -1,0 +1,17 @@
+int all_letters(char *s);
+int str_len(char *s);
+int num_in_range(char *s1, char b, char t);
+int diff(char *s1, char *s2);
+void shorten(char *s, int new_len);
+int len_diff(char *s1, char *s2);
+void rm_left_space(char *s);
+void rm_right_space(char *s);
+void rm_space(char *s);
+int find(char *h, char *n);
+char *ptr_to(char *h, char *n);
+int is_empty(char *s);
+void capitalize(char *s);
+void rm_empties(char **words);
+int str_cmp_ign_case(char *s1,char *s2);
+void take_last(char *s, int n);
+int ends_with_ignore_case(char *s, char *suff);
